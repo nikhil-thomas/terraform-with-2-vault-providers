@@ -26,7 +26,7 @@ data "vault_generic_secret" "prod" {
 
 resource "local_file" "username_file" {
   content  = data.vault_generic_secret.dev.data["username"]
-  filename = "${path.module}/username.txt"
+  filename = "${path.module}/dev_username.txt"
 }
 
 resource "local_file" "prod_username_file" {

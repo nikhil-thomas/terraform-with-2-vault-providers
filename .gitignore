@@ -9,7 +9,7 @@
 .terraform/
 
 # Ignore output files
-username.txt
 prod_username.txt
+dev_username.txt
 
 # Ignore any other sensitive or environment-specific files
