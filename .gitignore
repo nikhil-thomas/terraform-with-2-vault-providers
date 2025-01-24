@@ -10,5 +10,6 @@
 
 # Ignore output files
 username.txt
+prod_username.txt
 
 # Ignore any other sensitive or environment-specific files
